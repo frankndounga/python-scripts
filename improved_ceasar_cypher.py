@@ -1,4 +1,6 @@
 def ceasar_cypher(message, shifted=1):
+    ''' Improved version of a ceasar_cypher algorithm '''
+    
     MAX_SHIFT = 20
     if shifted < 1 or shifted > MAX_SHIFT:
         print(f'the shifted value cannot be less than 1 or greater tha {MAX_SHIFT} it default to 1.')
