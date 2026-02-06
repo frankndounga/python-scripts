@@ -35,9 +35,16 @@ def decrypt_ceasar_cypher(encrypted_message, shifted=1):
     return decrypted_message
 
 if __name__ == '__main__':
-    shifted_number = 4
+    
     message = input('Enter the message you want to encrypted: ')
-    encrypted_message = ceasar_cypher(message, shifted_number)
-    print('The encrypted message is: ', encrypted_message)
-    decrypted_message = decrypt_ceasar_cypher(encrypted_message, shifted_number)
-    print('The decrypted message is: ', decrypted_message)
+    while True:
+        try:
+            shifted_number = int(input('Enter a shifted value: '))
+        except ValueError:
+            print('You cannot enter non digit value.')
+        else:
+            encrypted_message = ceasar_cypher(message, shifted_number)
+            print('The encrypted message is: ', encrypted_message)
+            decrypted_message = decrypt_ceasar_cypher(encrypted_message, shifted_number) 
+            print('The decrypted message is: ', decrypted_message)
+            break
