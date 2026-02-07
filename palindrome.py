@@ -1,11 +1,5 @@
 #!/usr/bin/env python
 
-#Recommandation of this version of palindrome checking
-#assume that an empty string isn't a palindrome;
-#treat upper- and lower-case letters as equal; 
-#spaces are not taken into account during the check – treat them as non-existent;
-#there are more than a few correct solutions – try to find more than one.
-
 def check_if_palindrome(word):
     # do not consider an empty string
     if word == '':
