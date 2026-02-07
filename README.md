@@ -13,3 +13,6 @@ I have just added the functionnality to not ignore non alpha letter and let them
 1. assume that two empty strings are not anagrams;
 2. treat upper- and lower-case letters as equal;
 3. spaces are not taken into account during the check – treat them as non-existent
+
+## THE DIGIT OF LIFE
+1. outputs the Digit of Life for the date.

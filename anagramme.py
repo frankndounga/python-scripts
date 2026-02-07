@@ -1,8 +1,16 @@
 #!/usr/bin/env python
 
-#An anagram is a new word formed by rearranging the letters of a word, using all the original letters exactly once.
+#lighter version
+def anagramme2(expression1, expression2):
+    expression1 = "".join(sorted(list(expression1.replace(' ', '').lower())))
+    expression2 = "".join(sorted(list(expression2.replace(' ', '').lower())))
 
+    if expression1 == expression2:
+        return "It is an anagram"
+    else:
+        return "It is not an anagram" 
 
+#long version
 def anagramme(expression1:str, expression2:str) -> bool:
     #if one expression is an empty string exit directly
     if expression1 == '':
@@ -21,6 +29,6 @@ def anagramme(expression1:str, expression2:str) -> bool:
             return False
     else:
         return True
-
-print(anagramme('rail safety', 'faiRy tales'))
+#test
+print(anagramme2('rail safety', 'faiRy tales'))
 
