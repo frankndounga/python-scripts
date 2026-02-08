@@ -18,5 +18,5 @@ I have just added the functionnality to not ignore non alpha letter and let them
 1. outputs the Digit of Life for the date.
 
 ## FIND WORD
-## Recommendation
+### Recommendation
 The program must answers the following question: are the characters comprising the first string hidden inside the second string in the same order of course(this is the small difficulty)?
