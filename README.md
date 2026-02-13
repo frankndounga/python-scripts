@@ -20,3 +20,10 @@ I have just added the functionnality to not ignore non alpha letter and let them
 ## FIND WORD
 ### Recommendation
 The program must answers the following question: are the characters comprising the first string hidden inside the second string in the same order of course(this is the small difficulty)?
+
+## CREATE A QUEUE CLASS (FIFO) WITH A BUILTIN EXCEPTION
+### Recommendation
+Write a custom exception which should be raised if trying to get an element from the empty queue
+
+## TIMER CLASS
+

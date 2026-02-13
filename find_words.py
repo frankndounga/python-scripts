@@ -14,5 +14,5 @@ def find_word(word_to_search, pattern):
         print(index, word_to_search[i]) #just to test the order
     return 'Yes'
 
-    
+#exemple   
 print(find_word(word, eg))
