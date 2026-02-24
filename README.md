@@ -27,3 +27,19 @@ Write a custom exception which should be raised if trying to get an element from
 
 ## TIMER CLASS
 
+## DAYS OF THE WEEK
+The string argument in the class constructor represents the name of the day of the week and the only acceptable values must come from the following set:
+"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"
+class contains two method add_days and subtract_days to move the corresponding day when adding a number
+
+# SIMPLE FILE PROCESSING 
+## Histogramme 
+### Recommendation 
+
+asks the user for the input file's name;
+reads the file (if possible) and counts all the Latin letters (lower- and upper-case letters are treated as equal)
+prints a simple histogram in alphabetical order (only non-zero counts should be presented)
+the output histogram will be sorted based on the characters' frequency (the bigger counter should be presented first)
+the histogram should be sent to a file with the same name as the input one, but with the suffix '.hist' (it should be concatenated to the original name)
+
+
